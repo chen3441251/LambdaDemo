@@ -35,8 +35,11 @@ public class MainActivity extends AppCompatActivity {
 //        for (String s : list) {
 //            Log.d("xxx","java8之前遍历s=="+s);
 //        }
-        //java8 刘勇
+        //java8
         list.forEach(s -> Log.d("xxx",s));
+        for (String s : list) {
+            Log.d("xxx","s=="+s);
+        }
 
     }
 
